@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TurboSleep 🌙</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#000000">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+<h1>TurboSleep 🌙</h1>
+<p>Night Routine Companion</p>
+</header>
+
+<section class="card">
+<h2>Tonight's Routine</h2>
+
+<ul id="routine">
+<li><input type="checkbox"> Perform wudu</li>
+<li><input type="checkbox"> Recite Ayat al-Kursi</li>
+<li><input type="checkbox"> Recite Ikhlas, Falaq, Nas</li>
+<li><input type="checkbox"> Dust the bed with your hand</li>
+<li><input type="checkbox"> Sleep on right side</li>
+<li><input type="checkbox"> Say sleeping dua</li>
+</ul>
+
+<div class="progress">
+<div id="progressBar"></div>
+</div>
+
+</section>
+
+<section class="card">
+<h2>Reminders</h2>
+<p>🍽 Avoid heavy meals — 8:00 PM</p>
+<p>🌙 Sleep routine — 12:00 AM</p>
+
+<button id="enableNotifications">
+Enable Night Reminders
+</button>
+</section>
+
+<section class="card motivation">
+<p id="message"></p>
+</section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
